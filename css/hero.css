@@ -1,0 +1,51 @@
+.hero__wrapper {
+}
+.hero {
+    padding: 5rem 0 10rem;
+}
+.hero .img {
+    max-width: 100%;
+}
+.hero .title span {
+    font-family: var(--special-font);
+    text-transform: capitalize;
+    font-size: 9rem;
+    background-color: var(--third-brand-color);
+}
+.hero-block {
+   margin-bottom: 5rem;
+}
+.hero .btn {
+    width: 15rem;
+    height: 15rem;
+}
+.hero .btn div {
+    padding: 2rem 0;
+    font-size: 2rem;
+} 
+.hero .btn span {
+    width: 8rem;
+}
+@media screen and (min-width: 768px) {
+    .hero .title span {
+      font-size: 14rem;
+    }
+    .hero .btn:hover span {
+        margin-right: -3rem;
+        width: 12rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .hero .img {
+    max-width: 50%;
+    margin: 0;
+  }
+  .hero-block {
+    width: calc(50% - 5rem);
+ }
+}

@@ -1,0 +1,22 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  /* --main-text-color: #000; */
+  --main-text-color: #c4bdb1;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+  --first-brand-color: #282d29;
+  --second-brand-color: #c4bdb1;
+  --third-brand-color: #393d3a;
+
+  --main-font:  'Open Sans Condensed';
+  --title-font:  'Open Sans';
+  --main-title-font: 'Rozha One';
+  --special-font: 'WindSong';
+
+  font-size: 62.5%;
+}
