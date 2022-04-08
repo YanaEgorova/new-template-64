@@ -81,6 +81,10 @@
 .open-menu .nav__list {
     opacity: 1;
 }
+.fl {
+    display: flex;
+    align-items: center;
+}
 .cart__btn {
     display: flex;
     align-items: center;
@@ -91,11 +95,12 @@
     display: block;
     margin-right: 1.5rem;
     width: 3rem;
+    fill: var(--main-text-color);
 }
 .cart__btn span {
     font-size: 2rem;
     font-family: var(--title-font);
-    color: #000;
+    color: var(--main-text-color);
 }
 @media screen and (min-width: 1024px) {
     .logo {
